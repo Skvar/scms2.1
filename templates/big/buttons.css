@@ -1,0 +1,176 @@
+/*********************************************************************************************
+								BUTTONS
+**********************************************************************************************/
+.buttons-anchor{
+	width:100%;
+	height:0;
+	padding:0;
+	margin: 0;
+	position: relative;
+	z-index: 10;
+
+}
+
+
+button:disabled{
+	color:gray;
+	background:#A0A0A0;
+	filter:none;
+	cursor: wait;
+}
+
+button:disabled:hover{
+	color:gray;
+	background:#A0A0A0;
+	filter:none;
+	cursor: wait;	
+}
+button:disabled:hover .button-icon{
+	filter:invert(0.5);	
+}
+
+.v-small-button{
+	position: absolute;
+	width:16px;
+	height:16px;
+	border: 1px solid silver;
+	border-radius: 3px;
+	cursor: pointer;
+	background-color: #C0C0C0;
+	background-image:  url('images/icons/icons_16x16.png');
+	background-repeat: no-repeat;	
+	overflow: hidden;
+}
+.v-small-button:hover{
+	background-color:#101010;
+	border: 1px solid gray;
+	filter: invert(1);
+	
+}
+
+.small-button{
+	display: inline-block;
+	min-width:20px;
+	min-height:20px;
+	background:#C0C0C0;
+	border-radius: 5px;
+	border:1px solid gray;
+	font-size:0px;	
+	margin: 0px 2px;
+	text-align: center;
+	line-height: 20px;
+}
+.small-button:hover{
+	background:#F0F0F0;
+}
+
+.small-button:hover .button-icon{	
+	filter:invert(1);
+}
+.small-button .button-icon{
+	display: inline-block;
+	width:16px;
+	height:16px;
+	background-image:  url('images/icons/icons_16x16.png');
+	background-repeat: no-repeat;	
+	overflow: hidden;
+	vertical-align: middle;
+	font-size: 0px;
+	border:0px;
+	padding:0;
+	margin: 0;
+}
+
+
+.normal-button{
+	display: inline-block;
+	min-width:150px;
+	height:30px;
+	background:#A0A0A0;
+	border-radius: 5px;
+	border:1px solid #808080;
+	cursor: pointer;
+	font-size:14px;	
+	margin:auto 10px;
+	color:white;
+	font-weight: bold;
+	vertical-align: middle;
+	position: relative;
+}
+
+
+.normal-button:hover{
+	background:#F0F0F0;
+	color:black;
+}
+
+.normal-button:hover .button-icon{	
+	filter:invert(1);
+	-ms-filter: invert(1);
+}
+
+.message-button{
+	background-color: rgba(0,0,0,0.3);
+}
+
+
+
+.normal-button .button-icon{
+	width:16px;
+	height:16px;
+	background-image:  url('images/icons/icons_16x16.png');
+	background-repeat: no-repeat;	
+	overflow: hidden;
+	padding:0;
+	margin: 0;
+	margin:auto 0px;
+	position: absolute;
+	top:6px;
+	left:8px;
+}
+
+/*********************************************************************
+						ICONS
+*********************************************************************/
+
+.button-icon-edit{
+	background-position: 0px 0px;
+}
+.button-icon-delete{
+	background-position: -16px 0px;
+}
+.button-icon-ok{
+	background-position: -96px 0px;
+}
+.button-icon-reset{
+	background-position: -112px 0px;
+}
+.button-icon-back{
+	background-position: -128px 0px;
+}
+.button-icon-add{
+	background-position: -48px 0px;
+}
+.button-icon-double_arr_left{
+	background-position: -144px 0px;
+}
+.button-icon-arr_left{
+	background-position: -160px 0px;
+}
+.button-icon-arr_right{
+	background-position: -176px 0px;
+}
+.button-icon-double_arr_right{
+	background-position: -192px 0px;
+}
+.button-icon-find{
+	background-position: -208px 0px;
+}
+
+/*********************************************************************
+						COLORS
+*********************************************************************/
+.button-blue{
+	background-color:#4245bd;
+	color:lightblue;
+}

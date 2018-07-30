@@ -1,0 +1,31 @@
+.title-layout{
+
+	width:100%;
+}
+
+.title-element{
+	float: left;
+	color:white;
+	margin:5px;
+}
+
+footer{
+	border-radius: 0 0 9px 9px;
+	background-image: linear-gradient(to bottom ,#656565,#959595,#909090);
+	
+}
+
+.page-lister-element{
+	float:left;
+	min-width: 50px;
+	margin-left:10px;	
+}
+
+.header-main-menu li{
+	float:left;	
+	align-items:center;
+	line-height:18px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}

@@ -1,0 +1,136 @@
+/****************************************************************************
+					DEFAULT FORM INPUT DATA
+****************************************************************************/
+.form-default-panel{
+	width:96%;
+	max-height:5000px;
+	border-radius: 9px;
+	border:0;
+	background-color: transparent;
+	overflow: hidden;
+	margin:5px 5px;
+	padding:5px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.form-default-panel input[type='date'],
+.form-default-panel input[type='text'],
+.form-default-panel input[type='number'],
+.form-default-panel textarea,
+.form-default-panel select{
+	margin:4px;
+	width:99%;
+	height:30px;
+	border-radius: 3px;
+	font:14px 'Arial';
+	border:1px solid silver;
+	transition: all 0.2s;
+	text-align: left;
+	background-color: #FFFFD0;
+	height:20px;
+	
+}
+.form-default-panel input:read-only{
+	background-color: #EFEFEF;
+	color:#A0A0A0;
+	
+}
+
+.form-default-panel table{
+	text-align: left;
+	width:99%;
+	margin:0;
+	padding:0;
+}
+
+.form-default-panel fieldset{
+	border: 1px solid silver;
+	border-radius: 0 9px 9px 9px;
+	padding: 5px;
+	margin: 4px 0px;
+}
+.form-default-panel fieldset legend{
+	border: 1px solid silver;
+	border-radius: 9px;
+	padding: 2px 5px;
+	margin: 0;
+	font:bold 12px 'Arial';
+	background-color: #D0D0D0;
+	text-align: left;
+	margin-left: -5px;
+}
+
+
+/****************************************************************************
+						EditOrganizationForm.php
+****************************************************************************/
+.edit-org-panel table{padding:0;margin: 0;}
+.edit-org-panel th{text-align: center;background-color: #D0D0D0;height:18px;font:bold 12px 'Arial';}
+.edit-org-panel td{font:12px 'Arial';}
+.edit-org-panel td:first-of-type,
+.edit-org-panel td:last-of-type{width:20px;}
+.edit-org-panel input[type='date'],
+.edit-org-panel input[type='text'],
+.edit-org-panel input[type='number'],
+.edit-org-panel textarea,
+.edit-org-panel select{
+	margin: 0px;
+	font:12px 'Arial';
+	height:16px;
+}
+
+/****************************************************************************
+							EditFileForm.php
+****************************************************************************/
+.edit-file-panel table{padding:0;margin: 0;}
+.edit-file-panel .file-upload{
+	border: 1px solid silver;
+	border-radius: 6px;
+	text-align:left;
+	padding:0;
+	overflow: hidden;
+	height:32px;
+	font:0px;
+}
+.edit-file-panel .file-upload .file-upload-button{
+    display: inline-block;
+    vertical-align: top;
+    background: #407070;
+    width:27%;
+    height:32px;
+    color: #FFFFD0;
+    cursor: pointer;
+    margin: 0;
+    text-align: center;
+    font:bold 14px 'Arial';
+    padding:7px; 
+}
+.edit-file-panel .file-upload .file-upload-button:hover{background: #FFFFD0;color: #407070;}
+.edit-file-panel .file-upload .file-upload-input{display:none;opacity: 0; z-index: -1;}
+.edit-file-panel .file-upload .file-name { border: 0px;margin: 0;font-size:14px; width:70%}
+.edit-file-panel .file-progressbar {display: block;height:16px;width: 99%;border: 1px solid silver; margin:6px 0px;padding:1px 1px 1px 1px; background: white;border-radius: 3px;}
+.edit-file-panel .file-progressbar > .file-bar{display: block;background-color: #B4F5B4; width:0%; height:100%;border-radius: 3px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

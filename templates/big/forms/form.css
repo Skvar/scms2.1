@@ -1,0 +1,88 @@
+.form-window{
+	position: absolute;
+	z-index: 100;
+	border:2px solid white;
+	box-shadow: 3px 3px 10px 0 black;
+	background: #F0F0F0;
+	border-radius: 9px;
+	overflow: hidden;
+	max-height: 2000px;
+}
+.form-window-header{
+	
+	color:white;
+	text-align: center;
+	height: 30px;
+	background-color: #30A030;
+	font:bold 14px 'Arial'; 
+	line-height: 30px;
+
+}
+
+.form-window-header p{
+	display: inline;
+	vertical-align: bottom;
+}
+.form-window-header img{
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	left:5px;
+	top:5px;
+	filter:brightness(100);
+}
+
+.form-window-body{
+	padding:10px;
+}
+
+.form-window-footer{
+	min-height: 40px;
+}
+
+.form-window-user{
+	position: absolute;
+	min-height: 16px;
+	bottom:0px;
+	left:0px;
+	background-color: #909090;
+	padding:0;
+	width:100%;
+	text-align: right;
+}
+.form-window-user p{
+	color:white;
+	font-size: 12px;
+	padding:0 10px;
+	
+}
+
+
+
+
+.form-close-button{
+	display: inline-block;
+	width:40px;
+	height:40px;
+	position: absolute;
+	top:12px;
+	right:60px;
+	font:bold 30px 'Arial black';
+	color:white;
+	background: url('../images/form_close_button.png') no-repeat;
+	background-color: rgba(0,0,0,1);
+	opacity:0.7;
+	cursor: pointer;
+}
+.form-close-button:hover{
+	opacity:0.4;
+}
+
+.form-close-button-doc{
+	top:12px;
+	right:60px;
+}
+.form-close-button-image{
+	top:12px;
+	right:12px;
+}
